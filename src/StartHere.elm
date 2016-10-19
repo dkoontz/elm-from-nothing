@@ -1,0 +1,42 @@
+-- Hi there, if you're just starting out this is the right place to be!
+-- This file represents the instructions necessary to make an Elm program
+-- albeit a very simple one. We're going to look at some of the parts that
+-- make up a .elm file and then you can move on to the Main.elm file where
+-- the majority of the exercises are.
+
+-- This line like the ones above are called "comments", they have no impact
+-- on your program and are ignored by Elm. Any line that starts with two
+-- dashes is a comment and is ignored, even if it has content that would
+-- normally be interpreted as "source code" by the Elm compiler.
+--   As an aside, the compiler is a program that turns your .elm files into
+--   something that can run in your browser.
+
+-- Most Elm code is organized into "modules" which you can think of like
+-- a folder on your computer. You can put lots of source code into a module
+-- and Elm will know it all goes together. We'll come back to modules later,
+-- for now it's enough to know that generally each file is in a module with
+-- the same name, we're in StartHere.elm so our module name is StartHere.
+-- * Uncomment the module line and continue down *
+-- module StartHere exposing (..)
+--
+-- This line tells Elm to go open up another module and make it available to us.
+-- Lots of nice people have already written lots of code that we can use
+-- if we tell Elm where to go get it.
+-- * Uncomment the import line and continue down *
+-- import Html
+--
+-- Ok here we go, the big kahuna. This is the part that acutally makes
+-- things happen. I'm so excited! main is the start point of your program,
+-- in this case a program that will show Hello World on the screen.
+-- The "Hello World" part is what we want to show, the quotation marks are to
+-- tell Elm that this is regular text and not instructions it should try to
+-- make sense of and the Html.text tells Elm that this is content for a web page.
+-- You'll probably notice that the second line is indented, this is significant,
+-- you can experiment with making Html.text line up with main and see what happens.
+-- * Uncomment the two lines of main and then look in README.txt for instructions *
+-- * on running your program to see your program in action *
+-- main =
+--   Html.text "Hello World"
+
+-- Once you've seen your program running, open up Main.elm in your editor
+-- and in elm reactor to continue
