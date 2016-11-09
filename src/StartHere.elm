@@ -31,8 +31,8 @@
 -- The "Hello World" part is what we want to show, the quotation marks are to
 -- tell Elm that this is regular text and not instructions it should try to
 -- make sense of and the Html.text tells Elm that this is content for a web page.
--- You'll probably notice that the second line is indented, this is significant,
--- you can experiment with making Html.text line up with main and see what happens.
+-- You'll probably notice that the second line is indented, this matters!
+-- You can experiment with making Html.text line up with main and see what happens.
 -- * Uncomment the two lines of main and then look in README.txt for instructions *
 -- * on running your program to see your program in action *
 -- main =
