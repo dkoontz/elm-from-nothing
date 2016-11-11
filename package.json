@@ -1,0 +1,22 @@
+{
+  "name": "elm-from-nothing",
+  "version": "1.0.0",
+  "description": "Welcome to the Elm From Nothing course.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkoontz/elm-from-nothing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkoontz/elm-from-nothing/issues"
+  },
+  "homepage": "https://github.com/dkoontz/elm-from-nothing#readme"
+}

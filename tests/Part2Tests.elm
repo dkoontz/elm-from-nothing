@@ -5,5 +5,8 @@ import Test exposing (..)
 import Expect
 import String
 
+
 all : Test
-all = ?
+all = describe "Part 2 tests"
+  [
+  ]
