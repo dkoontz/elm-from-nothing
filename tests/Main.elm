@@ -10,8 +10,8 @@ import Part2Tests
 
 tests =
   describe "Elm from nothing tests"
-    [ Part1Tests.all
-    , Part2Tests.all
+    -- [ Part1Tests.all
+    [ Part2Tests.all
     ]
 
 

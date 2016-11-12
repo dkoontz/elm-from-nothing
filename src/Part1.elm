@@ -28,9 +28,9 @@ experienceWithProgramming = "noob'ish beginner"
 
 -- So far we've seen two different kinds of data, numbers and text. It is considered a good idea
 -- to put an indication of what kind of data you expect your variable to be and let Elm make
--- sure that everything was done right. The kind of data is called the type. When we do this Elm \
--- is very good at catching our mistakes, and let's face it, even the best programmers make
--- TONS of mistakes.
+-- sure that everything was done right. The kind of data is called the type and it restricts what
+-- values you can set the variable to. When we tell Elm what type a variable should be it is very good
+--  at catching our mistakes, and let's face it, even the best programmers make TONS of mistakes.
 
 -- Let's look at how to tell Elm that a variable should only be allowed to be set to a number. It turns
 -- out there are several types of numbers, we'll start with they type Float which is a number that can
@@ -57,7 +57,8 @@ thisIsAnInt = 5
 -- the number keys such as !@#$, and even crazy ones like ☃ or ✈ or even ༼つ ◕_◕ ༽つ
 
 thisIsAString : String
-thisIsAString = "I can see my 🏠 from up here!"
+thisIsAString = "I can see my 🏠 from here!"
+
 
 -- This is the end of part 1. Are all your tests passing now? If not please take a moment to fix
 -- whatever is broken before moving on. All set? Ok great, now we're going to need to enable the
