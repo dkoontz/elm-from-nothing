@@ -13,8 +13,8 @@ passcode = 0
 -- use a lower case first word and then capitalize the first letter of each
 -- additional word. Two variables cannot have the same name although they can
 -- have the same values. See what happens if you change myCustomVariable2 to be
--- myCustomVariable. Then fix the test so that the values of the two variables are
--- the same
+-- myCustomVariable. Then, fix the test so that the values of the two variables are
+-- the same.
 myCustomVariable = 5
 myCustomVariable2 = 6
 
@@ -33,8 +33,8 @@ experienceWithProgramming = "noob'ish beginner"
 --  at catching our mistakes, and let's face it, even the best programmers make TONS of mistakes.
 
 -- Let's look at how to tell Elm that a variable should only be allowed to be set to a number. It turns
--- out there are several types of numbers, we'll start with they type Float which is a number that can
--- have a decimal part, you may have heard this referred to in math as "real" numbers.
+-- out there are several types of numbers, but we'll start with the type Float, which is a number that can
+-- have a decimal part (you may have heard this referred to in math as "real" numbers).
 -- We write out a type by putting the name of the variable followed by a colon followed by the type.
 -- Try putting quotation marks around the value of thisIsANumber and see what happens.
 
@@ -60,10 +60,10 @@ thisIsAString : String
 thisIsAString = "I can see my 🏠 from here!"
 
 
--- This is the end of part 1. Are all your tests passing now? If not please take a moment to fix
+-- This is the end of part 1. Are all your tests passing now? If not, please take a moment to fix
 -- whatever is broken before moving on. All set? Ok great, now we're going to need to enable the
 -- next set of tests. Open up the file Main.elm which is in the tests folder. In there you will
 -- need to uncomment two lines, the one that says "import Part2Tests" and the one that says
 -- "run emit Part2Tests.all". There's a lot of stuff going on in that file so don't feel like you
--- should understand it quite yet. Once that is done you a run elm-test again and there should be
+-- should understand it quite yet. Once that is done, you can elm-test again and there should be
 -- some new failing tests. Open up Part2.elm and let's continue.

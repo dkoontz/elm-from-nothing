@@ -1,8 +1,7 @@
 -- Hi there, if you're just starting out this is the right place to be!
 -- This file represents the instructions necessary to make an Elm program
--- albeit a very simple one. We're going to look at some of the parts that
--- make up a .elm file and then you can move on to the Main.elm file where
--- the majority of the exercises are.
+-- (albeit a very simple one). We're going to look at some of the parts that
+-- make up a .elm file and then you can move on to the Part1.elm file.
 
 -- This line like the ones above are called "comments", they have no impact
 -- on your program and are ignored by Elm. Any line that starts with two
@@ -30,8 +29,8 @@
 -- in this case a program that will show Hello World on the screen.
 -- The "Hello World" part is what we want to show, the quotation marks are to
 -- tell Elm that this is regular text and not instructions it should try to
--- make sense of and the Html.text tells Elm that this is content for a web page.
--- You'll probably notice that the second line is indented, this matters!
+-- make sense of, and the Html.text tells Elm that this is content for a web page.
+-- You'll probably notice that the second line is indented; this matters!
 -- You can experiment with making Html.text line up with main and see what happens.
 -- * Uncomment the two lines of main and then look in README.txt for instructions *
 -- * on running your program to see your program in action *
