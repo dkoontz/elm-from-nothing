@@ -1,5 +1,7 @@
 module Part2 exposing (..)
 
+import String
+
 -- Let's recap a bit. We've learned that Elm has things called variables which are a name associated with a piece
 -- of data like the Int 42 or String "Hi mom!". The data that is associated with the variable is of a certain type
 -- which tells you what possible values it can have. An Int type means only whole numbers, a Float type means any
@@ -99,3 +101,39 @@ someOtherFloatValue: Float
 someOtherFloatValue = 2.4
 
 convertedTotal = 0
+
+
+-- Finally, let's look at our third type, Strings. Strings are just text so they can't be combined with numbers in
+-- a very straightforward way, for example, try uncommenting the following line
+
+-- doesThisWork = 5 + "5"
+
+
+-- There are operations we can do on Strings but they're not the same as for numbers. For example, we can combine
+-- two strings, but we use ++ for that instead of +
+-- This next test case is currently failing, see if you can correct it.
+
+firstWord = "Hi"
+secondWord = "Mom!"
+sentence = firstWord ++ secondWord
+
+
+-- There are lots of operations you can do with the String type. To get a feel for some of them try using the
+-- String.reverse, String.length and String.repeat operations to make the next tests pass. Of these 3 repeat is the only
+-- one that needs an additional bit of data, the number of times to repeat a string. So if you had
+-- String.repeat 2 "hi" you would get "hihi"
+originalMessage : String
+originalMessage = "I'm trapped in a meme, send help"
+
+reversedMessage = originalMessage
+
+messageLength : Int
+messageLength = originalMessage
+
+messageRepeated = originalMessage
+
+
+-- Phew! That was a LOT of stuff to take in! We're doing good, only a few more concepts to cover and you're all set
+-- with the fundamentals. When you're ready you'll need to enable Part3 the same way you enabled Part2, then you can
+-- run elm-test, see all your new failing test and head over to Part3 where we'll talk about making new operations
+-- instead of just using the built-in ones.
