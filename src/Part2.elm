@@ -37,14 +37,13 @@ total = moneyEarned - startingMoney - costOfGoods
 -- on multiplication and division. Multiplication is done with an asterisk: z = x * y and division is done with a forward
 -- slash: z = x / y
 
--- The temperature range before was in Farenheight. If we wanted to see the temperature range in Celsius we could
--- convert the high and low temperatures to celsius and then calculate the difference again.
+-- The high and low temperatures before were in Farenheight. If we wanted to see the temperature range in Celsius we
+-- could convert the high and low temperatures to celsius and then calculate the difference again.
 -- We can use the following formula: temp in C = (temp in F - 32) × 5/9
 -- You can use parentheses to make sure the subtraction happens before the multiplaction just like in regular math
 
 -- Fix the following test case so that the F to C conversion ratio is set and then used to calculate the final temperature
 
-farenheightToCelsiusRatio = 0
 highTemperatureInCelsius = 0
 lowTemperatureInCelsius = 0
 temperatureRangeInCelsius = 0
@@ -59,7 +58,6 @@ anInt = 5
 aFloat : Float
 aFloat = 5
 
-
 -- Uncomment this line and see what happens
 -- anIntPlusAFloat = anInt + aFloat
 
@@ -69,26 +67,25 @@ aFloat = 5
 -- also expected to be an Int. If you reverse the order of anInt and aFloat you'll see the type in the error changes
 -- to Float.
 
-
 -- If you do want to do something with an Int and Float you have two options. First, you can convert the Int to a float.
 -- The other option is to convert the Float to an Int. This direction is a bit more complicated since there are many
 -- ways you might want to do this.
 
--- This converts an Int to a Float, this is safe since the Int 1 can safely become the Float 1.0
+-- This converts an Int to a Float, this is safe since the Int 23 can safely become the Float 23.0
 aFloatFromInt : Float
-aFloatFromInt = toFloat anInt
+aFloatFromInt = toFloat 7
 
 -- This goes from a Float to an Int by rounding. So a value of 0.5 becomes 1 and a value of 0.49 becomes 0.
 aRoundedFloat : Int
-aRoundedFloat = round aFloat
+aRoundedFloat = round 4.7 -- this will be 5
 
 -- This goes from a Float to an Int by dropping any fractional part. 5.9999999 becomes 5.
 aFlooredFloat : Int
-aFlooredFloat = floor aFloat
+aFlooredFloat = floor 2.99999999 -- this will be 2
 
 -- This goes from a Float to an Int by always rounding up to the next Integer, so 1.0000001 becomes 2
 aCeilingedFloat : Int
-aCeilingedFloat = ceiling aFloat
+aCeilingedFloat = ceiling 2.000000001 -- this will be 3
 
 
 -- Use these conversion tools along with the variables someFloatValue and someOtherFloatValue to get the next test
@@ -128,7 +125,7 @@ originalMessage = "I'm trapped in a meme, send help"
 reversedMessage = originalMessage
 
 messageLength : Int
-messageLength = originalMessage
+messageLength = 0
 
 messageRepeated = originalMessage
 
